@@ -474,7 +474,7 @@
 
 	/* Tamper button */
 	tamp-button {
-		status = "okay";
+		status = "disable";
 		tamper-gpios = <&gpioi 8 0>;
 		st,tamp-mode = <TAMPER_CONFIRMED_MODE>;
 		st,tamp-id = <1>;
